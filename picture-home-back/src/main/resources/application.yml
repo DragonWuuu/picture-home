@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: picture-home-back
+  profiles:
+    active: dev
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: [your mysql url]
+    username: [your mysql username]
+    password: [your mysql password]
+
+  ai:
+    deepseek:
+      api-key: [your deepseek api key]
